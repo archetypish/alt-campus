@@ -129,3 +129,160 @@ table {
 }
 
 /* Custom CSS */
+
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+hr.dotted {
+  height: 0;
+  border: none;
+  border-top: 2px dotted black;
+  margin: 42px auto;
+}
+
+/* ---------Typography----------- */
+
+.link {
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  text-align: center;
+}
+
+.nav {
+  background-color: #07154c;
+}
+
+.link-nav {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.selected {
+  color: #15b83a;
+}
+
+.heading-title {
+  font-size: 32px;
+  font-family: serif;
+}
+
+.heading-section {
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-ex {
+  text-align: center;
+}
+
+.box-sq {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  border: 20px solid #0d1430;
+  background-color: #99d8ca;
+  box-shadow: inset 0px 0px 0px 20px #5873e2;
+  outline: 20px solid #90ffa9;
+  margin: 48px auto;
+}
+
+.legend-value {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.legend-index {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.index-col-1 {
+  background-color: #99d8ca;
+}
+
+.index-col-2 {
+  background-color: #0d1430;
+}
+
+.index-col-3 {
+  background-color: #90ffa9;
+}
+.index-col-4 {
+  background-color: #5873e2;
+}
+
+.cont-rect {
+  width: 660px;
+  border: 2px solid #000;
+  font-size: 0;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+.box-rect {
+  width: 200px;
+  height: 180px;
+  display: inline-block;
+  margin: 10px;
+  background-color: #dae0fa;
+}
+
+.rect-border {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+/* ----------Layout and Spacing------------------- */
+.nav {
+  padding: 12px 0;
+}
+
+.link-nav {
+  margin-right: 20px;
+}
+
+.heading-title {
+  margin: 48px 0 32px;
+}
+
+.heading-section {
+  margin-bottom: 28px;
+  margin-top: 20px;
+}
+
+.section-ex:last-child {
+  margin-bottom: 48px;
+}
+
+/* ----------------------------------------- */

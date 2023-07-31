@@ -6,35 +6,58 @@
     <link rel="stylesheet" href="./assets/stylesheet/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Blog</a>
-        </nav>
-        <h1>The Box Model,Box Sizing, and Box Shadow</h1>
-      </div>
+    <header class="header">
+      <nav class="nav">
+        <a class="link link-nav selected" href=".">Home</a>
+        <a class="link link-nav" href="./blog.html">Blog</a>
+      </nav>
+
+      <h1 class="heading-title">The Box Model,Box Sizing, and Box Shadow</h1>
     </header>
     <main>
-      <section>
+      <section class="section-ex">
         <div class="container">
-          <h2>Exercise one</h2>
-          <div></div>
-          <div>
-            <span>
-              <span></span>
-              #99d8ca</span
+          <h2 class="heading-section">Exercise one</h2>
+          <div class="box-sq"></div>
+          <div class="legend">
+            <span class="legend-value">
+              <span class="legend-index index-col-1"></span>
+              #99D8CA</span
+            >
+            <span class="legend-value">
+              <span class="legend-index index-col-2"></span>
+              #0D1430</span
+            >
+            <span class="legend-value">
+              <span class="legend-index index-col-3"></span>
+              #90FFA9</span
+            >
+            <span class="legend-value">
+              <span class="legend-index index-col-4"></span>
+              #5873E2</span
             >
           </div>
+          <hr class="dotted" />
         </div>
       </section>
-      <hr class="dotted" />
-      <section>
+
+      <section class="section-ex">
         <section class="container">
-          <div><span></span><span></span><span></span></div>
+          <h2 class="heading-section">Exercise two</h2>
+
+          <div class="cont-rect">
+            <span class="box-rect"></span>
+            <span class="box-rect"></span>
+            <span class="box-rect"></span>
+          </div>
+          <hr class="dotted" />
         </section>
         <section class="container">
-          <div><span></span><span></span><span></span></div>
+          <div class="cont-rect">
+            <span class="box-rect rect-border"></span>
+            <span class="box-rect rect-border"></span>
+            <span class="box-rect rect-border"></span>
+          </div>
         </section>
       </section>
     </main>
