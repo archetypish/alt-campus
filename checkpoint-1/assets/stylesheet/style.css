@@ -286,3 +286,36 @@ hr.dotted {
 }
 
 /* ----------------------------------------- */
+/* Typography */
+
+.post-title {
+  color: #061345;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-text {
+  font-size: 18px;
+  color: black;
+}
+
+.post-readmore {
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.primary {
+  padding: 12px 30px;
+  background-color: #19bb3d;
+  color: #fff;
+  border-radius: 24px;
+}
+
+.secondary {
+  color: #19bb3d;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* ------------Layout and Spacing---------------- */
