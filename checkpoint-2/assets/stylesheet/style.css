@@ -148,9 +148,20 @@ body {
   color: #000;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Typography --------------------------*/
-.header {
+
+/* Header */
+.header-social {
   background-color: #736c69;
+}
+.header {
+  background-color: #fff;
 }
 
 .social-container {
@@ -167,3 +178,39 @@ body {
   font-size: 14px;
   color: #444;
 }
+
+.logo-text {
+  color: #ea523e;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Hero */
+
+.hero {
+  background: url("/assets/media/banner.jpg");
+}
+
+.page-title {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+
+.page-subtitle {
+}
+
+/* 
+
+.section-title {
+}
+
+.section-subtitle {
+} */
